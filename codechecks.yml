@@ -2,7 +2,7 @@ checks:
   - name: lighthouse-keeper
     options:
       buildPath: ./dist/teste-pagina/
-      # url: http://localhost:3000
+      url: http://localhost:3000/teste-pagina
       minScores:
         performance: 90
         accessibility: 90
