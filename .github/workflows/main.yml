@@ -13,4 +13,4 @@ jobs:
           yarn generate
           npx codechecks
         env:
-          PAGESPEED_NUXT: ${{ secrets.PAGESPEED_NUXT }}
+          CC_SECRET: ${{ secrets.CC_SECRET }}
