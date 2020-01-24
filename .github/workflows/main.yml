@@ -10,7 +10,6 @@ jobs:
       - name: Executando o build Ev-Front
         run: |
           yarn install --frozen-lockfile
-          yarn build
           yarn generate
           npx codechecks
         env:
