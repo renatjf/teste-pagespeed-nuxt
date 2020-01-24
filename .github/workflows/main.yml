@@ -1,0 +1,16 @@
+name: Teste PageSpeed Nuxt
+on: push
+
+jobs:
+  build-and-codechecks:
+    name: Teste PageSpeed Nuxt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Executando o build Ev-Front
+        run: |
+          yarn install --frozen-lockfile
+          yarn build
+          npx codechecks
+        env:
+          PAGESPEED_NUXT: ${{ secrets.PAGESPEED_NUXT }}
