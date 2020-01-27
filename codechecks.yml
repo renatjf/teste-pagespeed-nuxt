@@ -1,7 +1,7 @@
 checks:
   - name: lighthouse-keeper
     options:
-      buildPath: "./dist/*.*"
+      buildPath: "./dist/*.*/index.html"
       # url: http://localhost:3000
       minScores:
         performance: 90
