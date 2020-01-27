@@ -1,12 +1,8 @@
 checks:
   - name: lighthouse-keeper
     options:
-      collectionName: website # arbitrary name
-              buildPath: "./dist" # build path so we can automatically serve it for you
-              routes:
-                # list of routes to make screenshots of
-                - /dist
-                - /dist/teste-pagina/
+      buildPath: ./dist
+      buildPath: ./dist/teste-pagina/
       # url: http://localhost:3000
       minScores:
         performance: 90
