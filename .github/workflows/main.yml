@@ -11,6 +11,6 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn generate
-          npx codechecks
+          npx pagespeed
         env:
           CC_SECRET: ${{ secrets.CC_SECRET }}
