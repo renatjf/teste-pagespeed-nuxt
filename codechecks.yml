@@ -6,4 +6,5 @@ checks:
       routes:
         # list of routes to make screenshots of
         - /
+        - ./dist/teste-pagina
   # ...
