@@ -1,4 +1,15 @@
-        checks:
+checks:
+  - name: lighthouse-keeper
+    options:
+      buildPath: ./dist
+      # url: http://localhost:3000
+      minScores:
+        performance: 90
+        accessibility: 90
+        best-practices: 90
+        seo: 90
+        pwa: 90
+
           - name: vis-reg-routes
             options:
               collectionName: website # arbitrary name
@@ -7,11 +18,3 @@
                 # list of routes to make screenshots of
                 - /dist
                 - /dist/teste-pagina/
-
-                minScores:
-                  performance: 90
-                  accessibility: 90
-                  best-practices: 90
-                  seo: 90
-                  pwa: 90
-          # ...
