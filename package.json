@@ -15,6 +15,7 @@
   "dependencies": {
     "@codechecks/client": "^0.1.10",
     "@codechecks/lighthouse-keeper": "^0.1.2",
+    "@codechecks/vis-reg-routes": "^0.0.2",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0"
