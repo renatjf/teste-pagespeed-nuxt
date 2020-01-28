@@ -1,5 +1,7 @@
 # teste-pagespeed
 
+<a href="https://codechecks.io"><img src="https://raw.githubusercontent.com/codechecks/docs/master/images/badges/badge-default.svg?sanitize=true" alt="codechecks.io"></a>
+
 > Teste PageSpeed Nuxt
 
 ## Build Setup
